@@ -96,7 +96,7 @@ Special thanks to my mentor **Ashutosh Bhakre Sir** for their guidance and suppo
 
 # 📢 Connect With Me
 
-* 📧 **Email**: `botesidhant2gmail.com`
+* 📧 **Email**: `botesidhant@gmail.com`
 * 💼 **LinkedIn**: [Your GitHub](www.linkedin.com/in/sidhant-bote)
 * 🐙 **GitHub**: [Your GitHub](https://github.com/sidhu1504)
 
