@@ -1,9 +1,9 @@
 # Ask user for cloud provider choice
 # Ask user for action
-$action = Read-Host "Do you want to CREATE new infrastructure or DELETE existing infrastructure? (Enter 'create' or 'delete')"
+$action = Read-Host "Do you want to CREATE new infrastructure or DESTROY existing infrastructure? (Enter 'create' or 'destroy')"
 
-if ($action -ne "create" -and $action -ne "delete") {
-    Write-Host "Invalid action. Please enter 'create' or 'delete'. Exiting."
+if ($action -ne "create" -and $action -ne "destroy") {
+    Write-Host "Invalid action. Please enter 'create' or 'destroy'. Exiting."
     exit
 }
 
@@ -36,8 +36,8 @@ if ($action -eq "create") {
     Write-Host "Creating infrastructure..."
     terraform apply -auto-approve
 }
-elseif ($action -eq "delete") {
-    Write-Host "Deleting infrastructure..."
+elseif ($action -eq "destroy") {
+    Write-Host "Destroying infrastructure..."
     terraform destroy -auto-approve
 }
 
